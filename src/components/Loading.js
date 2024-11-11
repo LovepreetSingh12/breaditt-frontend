@@ -1,0 +1,10 @@
+function Loading() {
+    return (
+        <div className="text-center py-10">
+            <div className="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mx-auto"></div>
+            <p className="text-gray-600 mt-4">Loading...</p>
+        </div>
+    );
+}
+
+export default Loading;
